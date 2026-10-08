@@ -2,14 +2,13 @@
 
 Python practice collection with module exercises, programming problems, and small projects.
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [Modules](Modules)
 - [Python-Problems](Python-Problems)
 - [Python_Mini_Projects](Python_Mini_Projects)
-- [README.md](README.md)
 
 ### Getting started
 
@@ -22,13 +21,19 @@ Run individual Python exercises from their own folders. This collection has no s
 
 ### Configuration and limitations
 
+This is a collection of independent exercises and projects. Dependencies, datasets and working directories vary between examples.
+
 ### Maintenance fixes
 
 - Replace a malformed temporary selection with valid Python.
 
 ### Validation
 
-Reviewed on 2026-10-08. Python syntax checks passed for 148 source files. Syntax validation does not establish runtime correctness or dependency compatibility.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. 148 existing Python files passed syntax checks; changed files and new regression tests were checked separately. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
