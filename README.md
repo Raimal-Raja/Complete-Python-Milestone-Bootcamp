@@ -1,40 +1,57 @@
-# Complete-Python-Milestone-Bootcamp
+# Python Exercises and Mini Projects
 
 Python practice collection with module exercises, programming problems, and small projects.
 
-## Setup and repository reference
+## Project focus
 
-### Project structure
+Learning / reference collection. Use the directory map to choose a focused example or learning topic instead of treating the repository as one application.
 
-- [Modules](Modules)
-- [Python-Problems](Python-Problems)
-- [Python_Mini_Projects](Python_Mini_Projects)
+## Workflow
 
-### Getting started
+```mermaid
+flowchart TD
+    A["Select a chapter or exercise"] --> B["Read the associated source or notes"]
+    B --> C["Run one example or notebook"]
+    C --> D{"Expected outcome?"}
+    D -->|Yes| E["Record findings and continue"]
+    D -->|No| F["Review assumptions and inputs"]
+    F --> B
+```
+
+The diagram describes how to work through the material; it is not a deployed service topology.
+
+## Repository structure
+
+| Path | Purpose |
+| --- | --- |
+| [`Modules/`](Modules) | Project-specific source, resources, or learning material. |
+| [`Python-Problems/`](Python-Problems) | Project-specific source, resources, or learning material. |
+| [`Python_Mini_Projects/`](Python_Mini_Projects) | Project-specific source, resources, or learning material. |
+
+## Getting started
 
 ```bash
 git clone https://github.com/Raimal-Raja/Complete-Python-Milestone-Bootcamp.git
 cd Complete-Python-Milestone-Bootcamp
 ```
 
-Run individual Python exercises from their own folders. This collection has no single application entry point; dependencies and input files vary by exercise.
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
 
-### Configuration and limitations
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1` instead.
 
-This is a collection of independent exercises and projects. Dependencies, datasets and working directories vary between examples.
+Read an individual chapter or source file and run its examples independently. There is no single shared application entry point. Install only the dependencies used by the example you select.
 
-### Maintenance fixes
+## Verification
 
-- Replace a malformed temporary selection with valid Python.
+Use the setup commands and inspect the selected interface, example, or notebook with known inputs. This documentation review checks repository paths and dependency declarations; it does not claim fresh end-to-end execution or model-quality measurements.
 
-### Validation
+## Contributing
 
-Recorded checks from the previous maintenance review (2026-10-08): 148 existing Python files passed syntax checks; changed files and new regression tests were checked separately. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+Include reproduction steps, the affected path, expected behavior, and the checks you ran. Keep credentials, generated environments, and unnecessary build artifacts out of commits.
 
-### Contributions
+## License
 
-Describe the issue, reproduction steps, environment, and expected behavior when proposing a change. Keep generated environments, credentials, and unnecessary build artifacts out of new commits.
-
-### License
-
-No top-level license file was found during this review.
+No top-level license file is currently tracked. Check reuse permissions with the repository owner.
